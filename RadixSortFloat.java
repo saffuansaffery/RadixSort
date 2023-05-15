@@ -14,7 +14,6 @@ public class RadixSortFloat {
         arrayTwo[i] = new ArrayList<Integer>();
     }
 
-    
     wholeNumber(input, tempArr);
     int tmp, placement = 1, length = String.valueOf(Arrays.stream(tempArr).max().getAsInt()).length();
     boolean turn = true;
